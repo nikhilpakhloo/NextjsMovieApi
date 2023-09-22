@@ -1,0 +1,42 @@
+.main {
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainleft {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 20px;
+}
+.mainleft button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    font-size: 14px;
+}
+.mainleft button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.mainleft h1 {
+    font-size: 50px;
+}
+
+.mainright {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
